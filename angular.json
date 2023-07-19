@@ -109,5 +109,7 @@
       }
     }
   },
-  "defaultProject": "talentlyft-interview-a01"
+  "cli": {
+    "analytics": "f1124602-2382-4c7f-ab44-6ece2e0727fd"
+  }
 }

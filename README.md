@@ -12,7 +12,7 @@ U ovom zadatku koristi se vanjska biblioteka Angular Material sa predefiniranim 
 
 U projektu se nalazi klasa `ContactsService` koju je potrebno koristiti za sve operacije, od dohvaćanja određene stranice kontakata, traženja kontakata, spremanje novih i uređenih kontakata, te brisanje kontakata. `ContactsService` klasa simulira API, te ima određeni vremenski delay. Postoji određena šansa da bilo koja od metoda "throwa exception", zato je potrebno uzeti u obzir da sve greške budu uhvaćene i adekvatno prikazane korisniku.
 
-Kako bi zadatak bio do kraja ispunjen potrebno je implementirati slijedeće funkcionalnosti:
+Kako bi zadatak bio do kraja ispunjen potrebno je implementirati sljedeće funkcionalnosti:
 
 ## 01 - Paginacija na glavnom ekranu
 
@@ -37,7 +37,7 @@ Također, potrebno je paziti i na validacije polja:
 -   Last name (obavezno)
 -   Email (nije obavezno, ali ako je upisan email, mora biti ispravan)
 -   Address (nije obavezno)
--   Phone number (nije obavezno, ali ako je upisan broj može se sastojati samo od slijedećih znakova: brojevi 0-9, znak plus "+" i razmak " ")
+-   Phone number (nije obavezno, ali ako je upisan broj može se sastojati samo od sljedećih znakova: brojevi 0-9, znak plus "+" i razmak " ")
 
 Na osnovu dodane validacije, potrebno je korisniku prikazati poruke koje mu opisuju što treba ažurirati u unesenim podatcima.
 
@@ -47,7 +47,7 @@ Klikom na `save` se pohranjuju podaci u servis ako su podatci u formi ispravno u
 
 ## 04 - Brisanje kontakta
 
-U popisu kontakata, klikom na ikonu kante za smeće, treba prikazati poruku kojom se pita korisnika je li siguran da želi obrisati odabranog kontakta. U slučaju pozitivnog odgovora potrebno je obrisati kontakt iz popisa (i sa servisa).
+U popisu kontakata, klikom na ikonu kante za smeće, treba prikazati poruku kojom se pita korisnika je li siguran da želi obrisati odabranog kontakta. U slučaju pozitivnog odgovora potrebno je obrisati kontakt iz popisa (i iz servisa).
 
 # Ostalo
 
@@ -57,4 +57,4 @@ Redoslijed rješavanja funkcionalnosti nije bitan. Dozvoljeno je koristiti se do
 
 Rješenje zadatka poslati u .zip formatu (bez node_modules foldera) kao odgovor na email s kojeg je zadatak poslan.
 
-Sretno sa rješavanjem! :)
+Sretno s rješavanjem! :)
